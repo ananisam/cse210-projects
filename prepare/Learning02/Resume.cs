@@ -1,7 +1,7 @@
 public class Resume
 {
     // Creating the member variables for the person's name.
-    public string _name = "";
+    public string _name;
         
     // Creating the member variable for the list of Jobs and initializing it to a new list
     public List<Job> _jobs = new List<Job>();    
