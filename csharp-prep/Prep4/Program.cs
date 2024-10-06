@@ -11,7 +11,7 @@ class Program
         // Declaring variable to hold a list of numbers and the number
         // That is, using a list class and creating a new object or instance of that class.
         List<int> numbers = new List<int>();
-        
+
         // Declaring and initializing the loop variable.
         int userNumber = -1;
 
@@ -29,7 +29,7 @@ class Program
             {
                 numbers.Add(userNumber);
             }
-        } 
+        }
         // Leaving the loop to do the computations
         // # Declaring and initializing the variables to accumulate the "total".
         int total = 0;
@@ -39,14 +39,14 @@ class Program
         {
             total += number;
         }
-            
+
         // Computing the average. First get the count from the list
         // Also casting the total variable to be a float since integer division can give results in decimal.
         int count = numbers.Count;
         float average = ((float)total) / count;
 
         // Finding the maximum or largest, smallest and smallest positive number (Stretched 1) in the list.
-        
+
         int largest = numbers[0];
 
         foreach (int number in numbers)
@@ -58,19 +58,19 @@ class Program
                 largest = number;
             }
         }
-        
+
         int smallest = numbers[0];
 
         foreach (int number in numbers)
         {
             if (number < smallest)
             {
-                // Comparing the numbers so if this number is less than the smallest, 
+                // Comparing the numbers so that if this number is less than the smallest, 
                 // the smallest is updated with the number to be the new smallest.
                 smallest = number;
             }
         }
-        
+
         // Stretched 1:
         int smallestPositive = 999999999;
 
@@ -81,9 +81,9 @@ class Program
                 // We have a new smallest positive number
                 smallestPositive = number;
             }
-                
+
         }
-            
+
 
         // Stretch Challenge 2: Sorting the list
         // To be done later
