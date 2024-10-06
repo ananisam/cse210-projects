@@ -26,7 +26,7 @@ class Program
 
             while (magicNumber != guess)
             {
-                // Prompting the user for the guess number and the converting it
+                // Prompting the user for the guess number and then converting it
                 Console.Write("What is your guess? ");
                 string userInputGuess = Console.ReadLine();
                 guess = int.Parse(userInputGuess);
