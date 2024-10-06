@@ -14,8 +14,8 @@ class Program
 
         // Inserting a blank line
         Console.WriteLine();
-        
-        // Displaying the user input to the console
+
+        // Displaying the user inputs to the console
         Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
 
     }
